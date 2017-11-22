@@ -10,4 +10,4 @@ And docker-compose - [Install docker-compose](https://docs.docker.com/compose/in
 
 ## Authors
 
-* **Théo Herveux - *Initial Work* - [MyGit](https://github.com/Hurobaki)
+* **Théo Herveux** - *Initial Work* - [MyGit](https://github.com/Hurobaki)
