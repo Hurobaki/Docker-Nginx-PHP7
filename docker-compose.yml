@@ -1,0 +1,19 @@
+version: '3'
+services:
+
+    web:
+        image: nginx:latest
+        container_name: nginx
+        ports:
+            - "80:80"
+        volumes:
+            - ./code:/code
+            - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+        links:
+            - php
+
+    php:
+        image: php:7-fpm
+        container_name: php7fpm
+        volumes:
+            - ./code:/code
