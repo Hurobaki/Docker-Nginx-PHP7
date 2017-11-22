@@ -1,0 +1,6 @@
+# Ignore everything
+*
+# But these files
+!.gitignore
+!docker-compose.yml
+!nginx.conf
