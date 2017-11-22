@@ -4,3 +4,4 @@
 !.gitignore
 !docker-compose.yml
 !nginx.conf
+!README.md
