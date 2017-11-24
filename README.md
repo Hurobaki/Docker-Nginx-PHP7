@@ -8,8 +8,7 @@ You need to install Docker - [Install Docker](https://docs.docker.com/engine/ins
 
 And docker-compose - [Install docker-compose](https://docs.docker.com/compose/install/#install-compose)
 
-## Getting starting
-
+## Installation
 The only thing you have to do before launching is to modify the "server_name" param into nginx.conf file
 
 If you have a server with a DNS you can specifiy its name
